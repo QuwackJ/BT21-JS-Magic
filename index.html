@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>JavaScript Magic!</title>
+<link href="js-magic-style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head> 
+
+<body>
+
+<script src="js-magic-javascript.js"></script>
+
+<center>
+
+  <h1>JavaScript Magic!</h1>
+
+  <!-- input for changing background color -->
+  <label>Change your background color:</label><br>
+  <input type="text" id="my_color"/><br>
+  <input onclick="getColor()" type="button" value="Change Color!"/>
+
+  <br>
+
+  <!-- input for getting minion -->
+  <label>Type one of these words to see a special character!</label><br>
+  <h7>(boogie, flexing, luv, sammich, sleepy, ballerina, mad, vibing)</h7><br>
+  <input name="character action" type="text" id="character_action"/><br>
+  <input onclick="getCharacter()" type="button" value="Get Character!"/>
+
+
+  <!-- when the page loads, these images are also loaded but they are invisible because we
+  use "display: none" which sets the image as invisible -->
+  <img src="gif-file/boogie.gif" style="display: none;" id="boogie"/>
+  <img src="gif-file/flexing.gif" style="display: none;" id="flexing"/>
+  <img src="gif-file/luv ya.gif" style="display: none;" id="luv"/>
+  <img src="gif-file/sammich time.gif" style="display: none;" id="sammich"/>
+  <img src="gif-file/sleepy.gif" style="display: none;" id="sleepy"/>
+  <img src="gif-file/spinning like a ballerina.gif" style="display: none;" id="ballerina"/>
+  <img src="gif-file/they mad.gif" style="display: none;" id="mad"/>
+  <img src="gif-file/vibing in space.gif" style="display: none;" id="vibing"/>
+
+</center>
+
+</body>
+
+</html>

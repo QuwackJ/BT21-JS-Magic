@@ -1,0 +1,22 @@
+body {
+    font-size: large;
+    font-family: 'Varela Round', sans-serif;
+}
+
+input[type=button] {
+    width: 10%;
+    padding: 1px 1px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+input[type=text] {
+    width: 10%;
+    padding: 1px 1px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-family: 'Varela Round', sans-serif;
+}
